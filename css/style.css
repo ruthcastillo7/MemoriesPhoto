@@ -7,8 +7,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 1rem 1rem rgba(0,0,0,.3);
 }
+
+button{
+    display: flex;
+    align-items: center;
+    background-color: #053F5C;
+    border-radius: 20px;
+    width: 150px;
+    height: 80px;
+}
+
 a {
     background-color: #053F5C;
     border-radius: 20px;
@@ -25,8 +34,24 @@ section {
 
 }
 body{
-    background-image: url("../assets/photography.gif");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 1285px;
+    height: 400px;
 }
 /* nav end*/
+
+/* inicio start*/
+/* inicio end*/
+
+/* servicios start*/
+article{
+    background-color: #F7AD19;
+}
+/* servicios end*/
+
+/* inicio start*/
+footer{
+    background-color: #9FE7F5;
+}
+/* inicio end*/

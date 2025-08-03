@@ -28,7 +28,7 @@ Desarrollar una página web estática responsiva para evaluar habilidades en HTM
 
 | **ID** | **Requisito** | **Checklist** |  
 |--------|--------------|---------------|  
-| EX-001 | Desarrollo con Tailwind CSS en lugar de CSS puro. | ☐ |  
+| EX-001 | Desarrollo con Tailwind CSS en lugar de CSS puro. | ✓ |  
 | EX-002 | Efectos hover en botones o tarjetas. | ☐ |  
 | EX-003 | Animaciones simples (transiciones CSS o Tailwind). | ☐ |  
 ---  
