@@ -10,19 +10,20 @@
 </head>
 <body>
     <!-- Inicio star-->
-    <header>
+    <header class="shadow-xl/30 w-[1297px]">
         <h1 class="text-[30px] font-bold text-start mb-2">MemoriesPhoto</h1>
     <nav class="text-white text-center">
-        <a href="#inicio">Inicio</a>
-        <a href="#servicios">Servicios</a>
-        <a href="#contacto">Contacto</a>
+        <a class="bg-sky-950 rounded-xl text-white py-2" href="#inicio">Inicio</a>
+        <a class="bg-sky-950 rounded-xl text-white py-2" href="#servicios">Servicios</a>
+        <a class="bg-sky-950 rounded-xl text-white py-2" href="#contacto">Contacto</a>
     </nav>
     </header>
-    <section class="bg-[url('../assets/fotografiaGIF.gif')] bg-cover bg-center bg-no-repeat w-[1297px] h-[630}px] shadow-xl/30">
-        <h2 class="text-[50px] font-bold text-center p-10px">Capturando momentos, creando recuerdos</h2>
-        <p class="w-80 h-80 absolute top-50 text-center text-white font-bold">El estudio que captura los momentos mas especiales e importantes de tu vida.
+
+    <section class="bg-[url('./assets/fotografo.jpg')] bg-cover bg-center bg-no-repeat w-[1297px] h-[630}px] shadow-xl/30">
+        <h2 class="text-white text-[50px] font-bold text-center mt-20">Capturando momentos, creando recuerdos</h2>
+        <p class="text-amber-500 w-80 h-80 absolute top-70 text-center text-amber-500 font-bold  transition delay-150 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-sky-950">El estudio que captura los momentos mas especiales e importantes de tu vida.
         Fotografia recuerdos que llevaras siempre en tu corazón.</p>
-        <button class="text-white mt-[500px] mr-500px ml-500px" href="">Sobre nosotros</button>
+        <button class="text-white mt-[500px] p-50px mr-500px ml-500px transition delay-100 duration-100 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-sky-950   text-[25px] font-bold justify-center mt-20" href="">Sobre nosotros</button>
     </section>
     <!-- Inicio end-->
 
@@ -30,27 +31,27 @@
      <h2 class="text-[50px] font-bold p-50px text-center mt-20">Servicios que ofrecemos</h2>
      <main class="w-[1297px] h-[480px] p-4 m-400px rounded-2xl mt-5 flex justify-around shadow-xl/30">
         <section class="mt-1">
-            <article class="w-[246px] h-[410px] rounded-2xl text-center pl-3 pr-3 pb-3 pt-3 mr-2">
+            <article class="bg-amber-500 w-[246px] h-[410px] rounded-2xl text-center pl-3 pr-3 pb-3 pt-3 mr-2">
                 <img src="./assets/boda.card.jpeg" width="120%" height="80%">
                 <h4>Eventos especiales</h4>
                 <p class="text-base">Captura de momentos especiales desde la preparación hasta la ceremonia, con sesiones de fotos temáticas (Bodas - quince años).</p>
             </article>
-            <article class="w-[246px] h-[410px] rounded-2xl text-center pl-3 pr-3 pb-3 pt-3 mr-2">
+            <article class="bg-amber-500 w-[246px] h-[410px] rounded-2xl text-center pl-3 pr-3 pb-3 pt-3 mr-2">
                 <img src="./assets/costumbres.jpg" width="120%" height="80%">
                 <h4>Eventos culturales</h4>
                 <p class="text-base">Fotografía para documentar y explorar aspectos de la cultura, incluyendo costumbres, tradiciones, modos de vida y expresiones artísticas de diferentes comunidades y grupos sociales.</p>
             </article>
-            <article class="w-[246px] h-[410px] rounded-2xl text-center pl-3 pr-3 pb-3 pt-3  mr-2">
+            <article class="bg-amber-500 w-[246px] h-[410px] rounded-2xl text-center pl-3 pr-3 pb-3 pt-3  mr-2">
                 <img src="./assets/cumpleaños.jpg" width="120%" height="80%">
                 <h4>Eventos sociales</h4>
                 <p class="text-base">Cumpleaños, aniversarios, graduaciones, etc., con opciones de fotografía en estudio o en exteriores. </p>
             </article>
-            <article class="w-[246px] h-[410px] rounded-2xl text-center pl-3 pr-3 pb-3 pt-3 mr-2">
+            <article class="bg-amber-500 w-[246px] h-[410px] rounded-2xl text-center pl-3 pr-3 pb-3 pt-3 mr-2">
                 <img src="./assets/promocionar.jpg" width="120%" height="80%">
                 <h4>Fotografía comercial</h4>
                 <p class="text-base">Fotografias para promocionar productos, servicios o marcas, para  impulsar la imagen de una empresa.</p>
             </article>
-            <article class="w-[246px] h-[410px] rounded-2xl text-center pl-3 pr-3 pb-3 pt-3 mr-2">
+            <article class="bg-amber-500 w-[246px] h-[410px] rounded-2xl text-center pl-3 pr-3 pb-3 pt-3 mr-2">
                 <img src="./assets/conferencia.jpg" width="120%" height="80%">
                 <h4>Eventos corporativos</h4>
                 <p class="text-base">Fotografía de conferencias, seminarios, fiestas de empresa, etc., para uso interno y externo.</p>
@@ -60,29 +61,35 @@
     <!-- Servicios end-->
 
     <!-- contactanos stard-->
-     <main class="w-[1297px] h-[605px] p-4 m-50px rounded-2xl mt-[50px]"">
-        <h2>Contactanos</h2>
-        <p>Queremos saber más de lo que necesitas. Llena este formulario pondremos contactarte.</p>
-        <!-- <a href="https://wa.me/+51940270449"><img src="./assets/whatsapp-brands.svg" alt="logo de Whatsapp" width="2.5%">Whatsapp<a> -->
-        <article>
-            <form action="" method="post">
-                <input type="search" name="" id="" placeholder="Ingresa tu nombre">
-            </form>
-            <form action="" method="post">
-                    <input type="search" name="" id="" placeholder="Ingresa tu email">
-            </form>
-            <form action="" method="post">
-                <input type="search" name="" id="" placeholder="Escribe tu consulta">
-            </form>
-            <form method="post">
-                <input class="bg-lime-700 text-lime-100 rounded-2xl mt-[50px]" type="submit" value="Enviar">
-            </form>
+    <section class="min-h-screen flex items-center justify-center">
+        <article class="bg-gray-100 flex rounded-2xl shadow-lg max-w-3xl p-5">
         </article>
-     </main>
+
+        <article class="sm:w-1/2 px-16 mt-20">
+            <h2 class="text-[50px] font-bold">Contactanos</h2>
+            <p class="text-base mt-4">Queremos saber más de lo que necesitas. Llena este formulario pondremos contactarte.</p>
+            <form action="" class="flex flex-col gap-4">
+                <input class="bg-sky-200 rounded-xl p-2 mt-2" type="text" name="nombre" placeholder="Ingresa tu nombre">
+                <input class="bg-sky-200 rounded-xl p-2 mt-2" type="text" name="email" placeholder="Ingresa tu email">
+                <input class="bg-sky-200 rounded-xl p-2 mt-2" type="text" name="consulta" placeholder="Escribe tu consulta">
+                <a class="bg-sky-950 border py-2 w-full rounded-xl mt-3 text-center">Enviar</a>
+            
+            <div class="mt-3 grid grid-cols-3 items-center text-gray-500">
+                <hr class="border-gray-400">
+                <p class="text-center">or</p>
+                <hr class="border-gray-400">
+            </div>
+            <a class="border py-2 w-full rounded-xl mt-3 text-center">Whatsapp</a>
+        </article>
+            </form>
+        <article class="sm:block hidden w-1/2">
+            <img class="rounded-2xl w-[530px] h-[600px] mt-25" src="./assets/photoStudio.jpg">
+        </article>
+    </section>
     <!-- contactanos end-->
 
     <!-- footer stard-->
-     <footer>
+     <footer class="w-[1297px] h-[480px] p-4 m-400px rounded-2xl mt-5 flex justify-around">
         <article>icons</article>
         <p>© 2025 MemoriesPhoto.</p>
         <p>Todos los derechos reservados.</p>
