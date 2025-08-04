@@ -7,10 +7,10 @@ Desarrollar una página web estática responsiva para evaluar habilidades en HTM
 | **ID** | **Requisito** | **Checklist** |  
 |--------|--------------|---------------|  
 | RF-001 | Página con estructura HTML5 válida (DOCTYPE, head, body). | ✓ |  
-| RF-002 | Barra de navegación con al menos 3 secciones (Inicio, Servicios, Contacto). | ☐✓ |  
+| RF-002 | Barra de navegación con al menos 3 secciones (Inicio, Servicios, Contacto). | ✓ |  
 | RF-003 | Sección "Inicio" con un título, imagen y párrafo descriptivo. | ✓ |  
-| RF-004 | Sección "Servicios" con al menos 3 tarjetas (cards) que muestren servicios ficticios. | ☐ |  
-| RF-005 | Sección "Contacto" con un formulario (nombre, email, mensaje y botón de enviar). | ☐ |  
+| RF-004 | Sección "Servicios" con al menos 3 tarjetas (cards) que muestren servicios ficticios. | ✓ |  
+| RF-005 | Sección "Contacto" con un formulario (nombre, email, mensaje y botón de enviar). | ✓ |  
 | RF-006 | Footer con información de copyright y enlaces a redes sociales (simulados). | ☐ |  
 ---  
 ![alt text](image-1.png)
@@ -29,7 +29,7 @@ Desarrollar una página web estática responsiva para evaluar habilidades en HTM
 | **ID** | **Requisito** | **Checklist** |  
 |--------|--------------|---------------|  
 | EX-001 | Desarrollo con Tailwind CSS en lugar de CSS puro. | ✓ |  
-| EX-002 | Efectos hover en botones o tarjetas. | ☐ |  
+| EX-002 | Efectos hover en botones o tarjetas. | ✓ |  
 | EX-003 | Animaciones simples (transiciones CSS o Tailwind). | ☐ |  
 ---  
 **Instrucciones:**  

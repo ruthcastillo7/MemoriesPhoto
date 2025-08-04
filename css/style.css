@@ -9,26 +9,6 @@ header {
     justify-content: space-between;
 }
 
-button{
-    /* display: flex;
-    align-items: center; */
-    border-radius: 20px;
-    width: 150px;
-    height: 80px;
-}
-
-.button :hover{
-    background-color: #053F5C;
-    border-radius: 5rem;
-    padding: 2rem 2.5rem;
-}
-
-/* a {
-    background-color: #053F5C;
-    border-radius: 20px;
-    margin-top: 1rem;
-    padding: 0.3rem 2rem;
-} */
 section {
     font-size: 1.5rem;
     color: black;
@@ -44,12 +24,3 @@ body{
     height: 400px;
 }
 /* nav end*/
-
-/* servicios start*/
-/* servicios end*/
-
-/* footer start*/
-footer{
-    background-color: #9FE7F5;
-}
-/* footer end*/
