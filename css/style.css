@@ -8,7 +8,6 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-
 section {
     font-size: 1.5rem;
     color: black;
@@ -24,3 +23,20 @@ body{
     height: 400px;
 }
 /* nav end*/
+
+/* responsive start*/
+@media (max-width:320px) {
+    header{
+        padding: 2rem;
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    main .servicios{
+        flex-direction: column;
+    }
+}
+/* responsive end*/

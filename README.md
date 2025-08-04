@@ -11,7 +11,7 @@ Desarrollar una página web estática responsiva para evaluar habilidades en HTM
 | RF-003 | Sección "Inicio" con un título, imagen y párrafo descriptivo. | ✓ |  
 | RF-004 | Sección "Servicios" con al menos 3 tarjetas (cards) que muestren servicios ficticios. | ✓ |  
 | RF-005 | Sección "Contacto" con un formulario (nombre, email, mensaje y botón de enviar). | ✓ |  
-| RF-006 | Footer con información de copyright y enlaces a redes sociales (simulados). | ☐ |  
+| RF-006 | Footer con información de copyright y enlaces a redes sociales (simulados). | ✓ |  
 ---  
 ![alt text](image-1.png)
 ![alt text](image-2.png)
@@ -20,9 +20,9 @@ Desarrollar una página web estática responsiva para evaluar habilidades en HTM
 | **ID** | **Requisito** | **Checklist** |  
 |--------|--------------|---------------|  
 | RNF-001 | Diseño responsivo (adaptable a móviles, tablets y desktop). | ☐ |  
-| RNF-002 | Uso de CSS Flexbox o Grid para el layout. | ☐ |  
-| RNF-003 | Estilos coherentes (fuentes, colores, espaciados). | ☐ |  
-| RNF-004 | Código bien indentado y comentado (opcional). | ☐ |    
+| RNF-002 | Uso de CSS Flexbox o Grid para el layout. | ✓ |  
+| RNF-003 | Estilos coherentes (fuentes, colores, espaciados). | ✓ |  
+| RNF-004 | Código bien indentado y comentado (opcional). | ✓ |    
 ---  
 ## **Puntos Extra (Opcional)**  
 
@@ -30,7 +30,7 @@ Desarrollar una página web estática responsiva para evaluar habilidades en HTM
 |--------|--------------|---------------|  
 | EX-001 | Desarrollo con Tailwind CSS en lugar de CSS puro. | ✓ |  
 | EX-002 | Efectos hover en botones o tarjetas. | ✓ |  
-| EX-003 | Animaciones simples (transiciones CSS o Tailwind). | ☐ |  
+| EX-003 | Animaciones simples (transiciones CSS o Tailwind). | ✓ |  
 ---  
 **Instrucciones:**  
 - Los alumnos deben marcar los ítems completados en el checklist.  
